@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    ;
+}
+
+
+body {
+    background-color: #F4EFE9;
+    color: #333;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #333;
+}
+
+.cabecalho {
+    margin-top: 100px;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+    border-radius: 50%;
+    border: 4px solid var(--vidro);
+    animation: flutuar 3s ease-in-out infinite;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 20px;
+    color: var(--primaria);
+    font-weight: bold;
+}
+
+.cabecalho-subtitulo {
+    font-size: 1.5rem;
+    color: var(--claro);
+    font-weight: 500;
+}
+
+
+.conteudo {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* .redes-sociais {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botao {
+    width: 100%;
+    border: solid 1px #41AAD8;
+    border-radius: 10px;
+    color: #41AAD8;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao:hover {
+    background-color: #41AAD8;
+    color: white;
+    transform: scale(1.2)
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.particulas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.5;
+    background: radial-gradient(at 10% 20%, #F4EFE9 0%, transparent 20%),
+        radial-gradient(at 98% 80%, #2ca3d6 0%, transparent 20%),
+        #41AAD8;
+}
+
+@media (max-width: 768px) {
+
+    .botao {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .conteudo {
+        padding: 10px;
+    }
+
+    .Perfil {
+        max-width: 30%;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
