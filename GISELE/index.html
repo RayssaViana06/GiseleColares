@@ -1,179 +1,260 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gisele Colares - Neuropsicóloga</title>
-  <link rel="stylesheet" href="styless2.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Julius+Sans+One&display=swap"
-    rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="img/gisele logo simbolo.ico">
+  <title>Gisele Colares | Psicóloga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="particulas"></div>
-  <!-- Header -->
-  <header class="navbar">
-    <nav class="navegacao">
-      <ul class="menu">
-        <li><a href="#inicio" class="menu-link">Inicio</a></li>
-        <li><a href="#sobre" class="menu-link">Sobre</a></li>
-        <li><a href="#projetos" class="menu-link">Especialização</a></li>
-        <li><a href="#contato" class="menu-link">Contato</a></li>
-      </ul>
-    </nav>
-    <div class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <img src="img/gisele logo simbolo.png" alt="Logo Gisele Colares" onerror="this.style.display='none'"/>
+    <div class="logo-text">
+      <span>GISELE COLARES</span>
+      <span>PSICÓLOGA · CRP 04 58304</span>
     </div>
-  </header>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#especialidades">Especialidades</a></li>
+    <li><a href="#atletas">Atletas</a></li>
+    <li><a href="#online">Online</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="https://wa.me/553189097330" class="nav-cta" target="_blank">Agendar</a></li>
+  </ul>
+</nav>
 
-  <!-- Home -->
-  <section id="inicio" class="hero">
-    <div class="overlay">
-      <img src="img/gisele logo sem fundo.png" alt="Logo Gisele Colares" height="600px">
+<!-- HERO -->
+<section id="home">
+  <div class="hero-left fade-up">
+    <span class="hero-tag">Psicologia Comportamental</span>
+    <h1>GISELE<br><span>COLARES</span></h1>
+    <p class="hero-subtitle">PSICÓLOGA · CRP 04 58304</p>
+    <p class="hero-desc">
+      Um espaço seguro e acolhedor para que você possa se conhecer melhor e desenvolver ferramentas para lidar com os desafios da vida com mais autonomia.
+    </p>
+    <div class="hero-buttons">
+      <a href="https://wa.me/553189097330" class="btn-primary" target="_blank">Agendar Consulta</a>
+      <a href="#sobre" class="btn-secondary">Conhecer Mais</a>
     </div>
-  </section>
+  </div>
+  <div class="hero-right">
+    <img src="img/home.jpg" alt="Gisele Colares Psicóloga" onerror="this.style.background='linear-gradient(135deg, #9CE3E5, #41AAD8)'"/>
+  </div>
+</section>
 
-  <!-- Quem sou eu -->
-  <section id="sobre" class="content">
-    <div class="text">
-      <h2>Quem sou eu</h2>
-      <p>Sou Gisele Colares, psicóloga (CRP 04/058304), com atuação focada em adolescentes e adultos. Meu trabalho é
-        baseado na terapia comportamental, com atenção às necessidades de cada pessoa e respeito ao seu ritmo. Busco
-        oferecer um espaço seguro e objetivo, para que cada paciente possa se conhecer melhor e desenvolver ferramentas
-        para lidar com os desafios da vida.</p>
-      <br>
-      <h2>Onde me encontrar</h2>
-      <p>Atendo presencialmente no centro de Belo Horizonte e também online, oferecendo flexibilidade para quem prefere
-        a comodidade de estar em casa. O consultório é um espaço acolhedor, pensado para proporcionar conforto e
-        privacidade durante as sessões.</p>
-    </div>
-    <div class="image">
-      <img src="img/home.jpg" alt="Quem sou eu" height="500px">
-    </div>
-  </section>
-  <!-- Especialização -->
-  <section id="projetos" class="content">
-    <div class="image">
-      <img src="img/atletas .jpg" alt="Psicologia para Atletas" id="atletas" height="500px">
-    </div>
-    <div class="text">
-      <h2>Especialização e atendimentos</h2>
-      <p>Sou neuropsicóloga do comportamento, especializada em:
-
-        Ansiedade no ambiente de trabalho e nos relacionamentos
-
-        Timidez e habilidades sociais
-
-        Dificuldades emocionais em adolescentes e adultos
-
-        Apoio a adolescentes atletas na busca por desempenho e equilíbrio emocional
-
-        Atendo de forma individual, sempre com foco em ajudar cada pessoa a reconhecer seus pontos fortes, superar
-        barreiras e viver com mais autonomia.</p>
-      <br>
-      <h2> Psicologia para Adolescentes Atletas</h2>
-      <p>Ser atleta na adolescência é viver uma rotina intensa: treinos, escola, competições, pressão por resultados e
-        expectativas externas. Nesse cenário, muitos jovens enfrentam ansiedade, insegurança, dificuldade de
-        concentração e até perda de motivação.
-
-        O atendimento psicológico especializado ajuda o adolescente a:
-
-        Controlar a ansiedade antes e durante as competições
-
-        Aprimorar o foco e a disciplina nos treinos
-
-        Desenvolver autoconfiança e resiliência diante das derrotas
-
-        Equilibrar vida pessoal, escola e esporte sem abrir mão do bem-estar
-
-        Aprender a lidar com cobranças externas e internas
-
-        Esse acompanhamento fortalece não apenas o desempenho esportivo, mas também a saúde emocional e a construção da
-        identidade do jovem.
-      </p>
-    </div>
-  </section>
-
-  <!-- Atendimento Online -->
-  <section id="online" class="content">
-    <div class="text">
-      <h2>Atendimento Online</h2>
-      <p>A terapia online é uma forma prática e segura de cuidar da sua saúde emocional, sem abrir mão da qualidade do
-        acompanhamento psicológico.
-
-        Você pode participar das sessões no conforto da sua casa, no intervalo do trabalho ou até durante viagens,
-        usando apenas um celular, tablet ou computador com internet.
-
-        Entre os benefícios do atendimento online estão:
-
-        Flexibilidade de horários
-
-        Maior comodidade e economia de tempo
-
-        Acesso ao acompanhamento mesmo estando em outra cidade ou país
-
-        Privacidade e sigilo garantidos
-
-      </p>
-    </div>
-    <div class="image">
-      <img src="img/online.jpg" alt="Atendimento Online" height="400px">
-  </section>
-
-  <section id="contato" class="contatos">
-    <h2 class="contatos-titulo">Entre em Contato</h2>
-    <form class="formulario-contato" id="formulario" onsubmit="enviarWhatsApp(event)">
-      <div class="grupo-form">
-        <input placeholder="Seu nome" class="campo-form" id="nome">
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="sobre-img">
+    <img src="img/backgrund.jpg" alt="Gisele Colares" onerror="this.style.background='#F4EFE9'"/>
+  </div>
+  <div class="sobre-content fade-up">
+    <span class="section-tag">Quem sou eu</span>
+    <h2>SOBRE MIM</h2>
+    <p>
+      Sou Gisele Colares, psicóloga (CRP 04/058304), com atuação focada em adolescentes e adultos. Sou neuropsicóloga do comportamento, com especialização em ansiedade, habilidades sociais e desenvolvimento emocional.
+    </p>
+    <p>
+      Meu trabalho é baseado na terapia comportamental, com atenção às necessidades de cada pessoa e respeito ao seu ritmo. Busco oferecer um espaço seguro e objetivo, para que cada paciente possa se conhecer melhor e viver com mais autonomia.
+    </p>
+    <div class="sobre-info">
+      <div class="sobre-info-item">
+        <span class="num">04</span>
+        <span class="label">CRP 58304</span>
       </div>
-      <div class="grupo-form">
-        <textarea class="campo-form" placeholder="Sua mensagem" id="mensagem" rows="6"></textarea>
+      <div class="sobre-info-item">
+        <span class="num">2</span>
+        <span class="label">Modalidades</span>
       </div>
-      <div>
-        <button type="submit" class="botao-form">Enviar</button>
+      <div class="sobre-info-item">
+        <span class="num">∞</span>
+        <span class="label">Dedicação</span>
       </div>
+    </div>
+  </div>
+</section>
 
-    </form>
-  </section>
+<!-- ESPECIALIDADES -->
+<section id="especialidades">
+  <div class="section-header fade-up">
+    <span class="section-tag">Minha Atuação</span>
+    <h2>ESPECIALIDADES</h2>
+    <p>Atendimento individual e especializado para adolescentes e adultos, sempre com foco em ajudar você a reconhecer seus pontos fortes e superar barreiras.</p>
+  </div>
+  <div class="cards-grid">
+    <div class="card fade-up">
+      <div class="card-icon">🧠</div>
+      <h3>ANSIEDADE</h3>
+      <p>Suporte especializado para lidar com a ansiedade no ambiente de trabalho e nos relacionamentos, desenvolvendo estratégias práticas para o dia a dia.</p>
+    </div>
+    <div class="card fade-up">
+      <div class="card-icon">🤝</div>
+      <h3>HABILIDADES SOCIAIS</h3>
+      <p>Trabalho focado na timidez e no desenvolvimento de habilidades sociais, fortalecendo sua capacidade de se comunicar e se relacionar com mais confiança.</p>
+    </div>
+    <div class="card fade-up">
+      <div class="card-icon">💙</div>
+      <h3>SAÚDE EMOCIONAL</h3>
+      <p>Acompanhamento para dificuldades emocionais em adolescentes e adultos, criando um espaço seguro para compreensão e crescimento pessoal.</p>
+    </div>
+  </div>
+</section>
 
-  <!-- Contato -->
-  <footer id="contato">
-    <div>
-      <img src="img/gisele logo branco.png" alt="Logo Gisele Colares" height="300px">
-  </footer>
+<!-- ATLETAS -->
+<section id="atletas">
+  <div class="atletas-content fade-up">
+    <span class="section-tag">Atendimento Especializado</span>
+    <h2>PSICOLOGIA PARA ATLETAS ADOLESCENTES</h2>
+    <p>
+      Ser atleta na adolescência é viver uma rotina intensa: treinos, escola, competições, pressão por resultados. O acompanhamento psicológico fortalece o desempenho e a saúde emocional do jovem.
+    </p>
+    <ul class="atletas-list">
+      <li>Controle da ansiedade antes e durante competições</li>
+      <li>Aprimoramento do foco e disciplina nos treinos</li>
+      <li>Desenvolvimento de autoconfiança e resiliência</li>
+      <li>Equilíbrio entre vida pessoal, escola e esporte</li>
+      <li>Aprender a lidar com cobranças externas e internas</li>
+    </ul>
+    <a href="https://wa.me/553189097330" class="btn-white" target="_blank">Saiba Mais</a>
+  </div>
+  <div class="atletas-img">
+    <img src="img/atletas.jpg" alt="Background" onerror="this.style.display='none'"/>
+  </div>
+</section>
 
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/553189097330" target="_blank" class="whatsapp-btn"><img src="img/whatsapp.png"
-      alt="whatsapp"></a>
+<!-- ONLINE -->
+<section id="online">
+  <div class="online-inner">
+    <div class="section-header fade-up">
+      <span class="section-tag">Flexibilidade</span>
+      <h2>ATENDIMENTO ONLINE</h2>
+      <p>A terapia online é uma forma prática e segura de cuidar da sua saúde emocional, sem abrir mão da qualidade do acompanhamento psicológico. Sessões pelo celular, tablet ou computador, onde você estiver.</p>
+    </div>
+    <div class="beneficios fade-up">
+      <div class="beneficio">
+        <span class="icon">🕐</span>
+        <h4>FLEXIBILIDADE</h4>
+        <p>Horários adaptados à sua rotina, sem complicações.</p>
+      </div>
+      <div class="beneficio">
+        <span class="icon">🏠</span>
+        <h4>COMODIDADE</h4>
+        <p>Sessões no conforto da sua casa ou onde preferir.</p>
+      </div>
+      <div class="beneficio">
+        <span class="icon">🌎</span>
+        <h4>SEM FRONTEIRAS</h4>
+        <p>Acesso ao acompanhamento em qualquer cidade ou país.</p>
+      </div>
+      <div class="beneficio">
+        <span class="icon">🔒</span>
+        <h4>SIGILO TOTAL</h4>
+        <p>Privacidade e confidencialidade garantidas em todas as sessões.</p>
+      </div>
+    </div>
+    <a href="https://wa.me/553189097330" class="btn-primary" target="_blank">Agendar Sessão Online</a>
+  </div>
+</section>
 
-  <script>
-    function enviarWhatsApp(event) {
-      event.preventDefault();
-      const nome = document.getElementById('nome');
-      const mensagem = document.getElementById('mensagem');
-      const telefone = '553189097330';
+<!-- CONTATO -->
+<section id="contato">
+  <div class="fade-up">
+    <span class="section-tag">Onde me encontrar</span>
+    <h2>VAMOS CONVERSAR?</h2>
+    <p>
+      Atendo presencialmente no centro de Belo Horizonte e também online, oferecendo flexibilidade para quem prefere a comodidade de estar em casa. O consultório é um espaço acolhedor, pensado para proporcionar conforto e privacidade.
+    </p>
+    <div class="contact-items">
+      <a href="https://wa.me/553189097330" class="contact-item" target="_blank">
+        <div class="icon-wrap">📱</div>
+        <div class="ci-text">
+          <span class="ci-label">WHATSAPP</span>
+          <span class="ci-value">(31) 8909-7330</span>
+        </div>
+      </a>
+      <a href="mailto:Iluminipsico@gmail.com" class="contact-item">
+        <div class="icon-wrap">✉️</div>
+        <div class="ci-text">
+          <span class="ci-label">E-MAIL</span>
+          <span class="ci-value">Iluminipsico@gmail.com</span>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/psi.giselecolares" class="contact-item" target="_blank">
+        <div class="icon-wrap">📸</div>
+        <div class="ci-text">
+          <span class="ci-label">INSTAGRAM</span>
+          <span class="ci-value">@psi.giselecolares</span>
+        </div>
+      </a>
+      <div class="contact-item">
+        <div class="icon-wrap">📍</div>
+        <div class="ci-text">
+          <span class="ci-label">LOCALIZAÇÃO</span>
+          <span class="ci-value">Centro de Belo Horizonte, MG</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="contato-img fade-up">
+    <img src="home.jpg" alt="Consultório Gisele Colares" onerror="this.style.background='linear-gradient(135deg, #9CE3E5 0%, #41AAD8 100%)'"/>
+  </div>-->
+</section>
 
-      const texto = `Olá, meu nome é ${nome.value}, ${mensagem.value}`;
-      const msgFormatada = encodeURIComponent(texto);
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <img src="gisele_logo_sem_fundo.png" alt="Logo" onerror="this.style.display='none'"/>
+    <div class="footer-logo-text">
+      <span>GISELE COLARES</span>
+      <span>PSICÓLOGA · CRP 04 58304</span>
+    </div>
+  </div>
+  <ul class="footer-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#especialidades">Especialidades</a></li>
+    <li><a href="#atletas">Atletas</a></li>
+    <li><a href="#online">Online</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <span class="footer-copy">© 2025 Gisele Colares</span>
+</footer>
 
-      const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+<!-- WHATSAPP FAB -->
+<a href="https://wa.me/553189097330" class="whatsapp-fab" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
 
-      window.open(url, '_blank');
-    }
+<script>
+  // Navbar scroll effect
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 30);
+  });
 
-
-
-
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
+  // Fade-up on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 100);
+      }
     });
-  </script>
-</body>
+  }, { threshold: 0.12 });
 
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // Stagger cards
+  document.querySelectorAll('.cards-grid .card, .beneficios .beneficio').forEach((el, i) => {
+    el.style.transitionDelay = `${i * 0.1}s`;
+  });
+</script>
+</body>
 </html>
